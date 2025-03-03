@@ -5,126 +5,78 @@ const Pricing = () => {
   return (
     <section className="py-20 bg-white">
       <div className="container mx-auto px-6">
-        <h2 className="text-4xl font-bold text-center text-gray-800 mb-4">明朗な料金設定で安心</h2>
-        <p className="text-xl text-center text-gray-600 mb-16">入会金・初期費用0円、月額料金のみでご利用いただけます</p>
+        <h2 className="text-4xl font-bold text-center text-gray-800 mb-4">遺伝子検査付ダイエットコース</h2>
+        <p className="text-xl text-center text-gray-600 mb-16">あなたの体質に合わせた効率的なダイエットを実現</p>
         
-        <div className="flex flex-col lg:flex-row justify-center gap-8">
-          {/* Standard Plan */}
-          <div className="bg-gray-50 rounded-xl shadow-lg overflow-hidden flex-1 max-w-md transform transition duration-300 hover:scale-105">
+        <div className="max-w-3xl mx-auto">
+          {/* Main Plan */}
+          <div className="bg-gradient-to-br from-green-50 to-blue-50 rounded-xl shadow-lg overflow-hidden transform transition duration-300 hover:scale-105 border-2 border-green-400">
+            <div className="bg-green-500 text-white text-center py-2">
+              <span className="font-bold">2ヶ月間の集中コース</span>
+            </div>
             <div className="p-8">
-              <h3 className="text-2xl font-bold text-gray-800 mb-4">スタンダードプラン</h3>
+              <h3 className="text-2xl font-bold text-gray-800 mb-4">遺伝子検査付ダイエットコース</h3>
               <div className="flex items-end mb-6">
-                <span className="text-4xl font-bold text-gray-800">¥19,800</span>
-                <span className="text-gray-600 ml-2">/月（税込）</span>
+                <span className="text-4xl font-bold text-gray-800">¥189,200</span>
+                <span className="text-gray-600 ml-2">（税込）</span>
               </div>
-              <p className="text-gray-600 mb-6">月4回のパーソナルトレーニング</p>
+              <p className="text-gray-600 mb-6">2ヶ月間、16回×75分、遺伝子検査キット付</p>
               <ul className="space-y-3 mb-8">
                 <li className="flex items-start">
                   <CheckCircle className="h-5 w-5 text-green-500 mr-2 mt-1 flex-shrink-0" />
-                  <span className="text-gray-700">完全個室での60分トレーニング</span>
+                  <span className="text-gray-700">高精度な遺伝子検査キット</span>
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="h-5 w-5 text-green-500 mr-2 mt-1 flex-shrink-0" />
-                  <span className="text-gray-700">専用アプリでのサポート</span>
+                  <span className="text-gray-700">あなたの体質に合わせた食事指導</span>
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="h-5 w-5 text-green-500 mr-2 mt-1 flex-shrink-0" />
-                  <span className="text-gray-700">食事指導</span>
+                  <span className="text-gray-700">効率的なトレーニングプログラム</span>
                 </li>
                 <li className="flex items-start">
-                  <X className="h-5 w-5 text-gray-400 mr-2 mt-1 flex-shrink-0" />
-                  <span className="text-gray-500">ウェア・シューズ無料レンタル</span>
+                  <CheckCircle className="h-5 w-5 text-green-500 mr-2 mt-1 flex-shrink-0" />
+                  <span className="text-gray-700">詳細な遺伝子解析レポート</span>
+                </li>
+                <li className="flex items-start">
+                  <CheckCircle className="h-5 w-5 text-green-500 mr-2 mt-1 flex-shrink-0" />
+                  <span className="text-gray-700">専門トレーナーによる個別指導</span>
                 </li>
               </ul>
-              <button className="w-full bg-pink-500 hover:bg-pink-600 text-white font-bold py-3 px-4 rounded-lg transition duration-300">
-                無料カウンセリングを予約
-              </button>
-            </div>
-          </div>
-
-          {/* Premium Plan */}
-          <div className="bg-gradient-to-br from-pink-50 to-purple-50 rounded-xl shadow-lg overflow-hidden flex-1 max-w-md transform transition duration-300 hover:scale-105 border-2 border-pink-400">
-            <div className="bg-pink-500 text-white text-center py-2">
-              <span className="font-bold">人気プラン</span>
-            </div>
-            <div className="p-8">
-              <h3 className="text-2xl font-bold text-gray-800 mb-4">プレミアムプラン</h3>
-              <div className="flex items-end mb-6">
-                <span className="text-4xl font-bold text-gray-800">¥29,800</span>
-                <span className="text-gray-600 ml-2">/月（税込）</span>
-              </div>
-              <p className="text-gray-600 mb-6">月8回のパーソナルトレーニング</p>
-              <ul className="space-y-3 mb-8">
-                <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-green-500 mr-2 mt-1 flex-shrink-0" />
-                  <span className="text-gray-700">完全個室での60分トレーニング</span>
-                </li>
-                <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-green-500 mr-2 mt-1 flex-shrink-0" />
-                  <span className="text-gray-700">専用アプリでのサポート</span>
-                </li>
-                <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-green-500 mr-2 mt-1 flex-shrink-0" />
-                  <span className="text-gray-700">詳細な食事指導と栄養サポート</span>
-                </li>
-                <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-green-500 mr-2 mt-1 flex-shrink-0" />
-                  <span className="text-gray-700">ウェア・シューズ無料レンタル</span>
-                </li>
-              </ul>
-              <button className="w-full bg-pink-500 hover:bg-pink-600 text-white font-bold py-3 px-4 rounded-lg transition duration-300">
-                無料カウンセリングを予約
-              </button>
-            </div>
-          </div>
-
-          {/* VIP Plan */}
-          <div className="bg-gray-50 rounded-xl shadow-lg overflow-hidden flex-1 max-w-md transform transition duration-300 hover:scale-105">
-            <div className="p-8">
-              <h3 className="text-2xl font-bold text-gray-800 mb-4">VIPプラン</h3>
-              <div className="flex items-end mb-6">
-                <span className="text-4xl font-bold text-gray-800">¥49,800</span>
-                <span className="text-gray-600 ml-2">/月（税込）</span>
-              </div>
-              <p className="text-gray-600 mb-6">月12回のパーソナルトレーニング</p>
-              <ul className="space-y-3 mb-8">
-                <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-green-500 mr-2 mt-1 flex-shrink-0" />
-                  <span className="text-gray-700">完全個室での60分トレーニング</span>
-                </li>
-                <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-green-500 mr-2 mt-1 flex-shrink-0" />
-                  <span className="text-gray-700">24時間専用アプリでのサポート</span>
-                </li>
-                <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-green-500 mr-2 mt-1 flex-shrink-0" />
-                  <span className="text-gray-700">管理栄養士による食事プラン作成</span>
-                </li>
-                <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-green-500 mr-2 mt-1 flex-shrink-0" />
-                  <span className="text-gray-700">ウェア・シューズ無料レンタル</span>
-                </li>
-              </ul>
-              <button className="w-full bg-pink-500 hover:bg-pink-600 text-white font-bold py-3 px-4 rounded-lg transition duration-300">
-                無料カウンセリングを予約
+              <button className="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-4 rounded-lg transition duration-300">
+                お申し込みはこちら
               </button>
             </div>
           </div>
         </div>
 
-        <div className="mt-16 bg-pink-50 rounded-lg p-8 shadow-md">
-          <h3 className="text-2xl font-bold text-center text-gray-800 mb-6">期間限定キャンペーン</h3>
-          <div className="flex flex-col md:flex-row items-center justify-between">
-            <div className="mb-6 md:mb-0 md:mr-8">
-              <p className="text-xl text-gray-700 mb-2">
-                <span className="font-bold">今月末まで</span>の入会で
-              </p>
-              <div className="text-3xl font-bold text-pink-600">入会金 ¥20,000 → ¥0</div>
-              <p className="text-gray-600 mt-2">さらに初月の月会費が50%オフ！</p>
+        <div className="mt-16 bg-green-50 rounded-lg p-8 shadow-md">
+          <h3 className="text-2xl font-bold text-center text-gray-800 mb-6">遺伝子検査の流れ</h3>
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-6 text-center">
+            <div>
+              <div className="bg-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4 shadow-md">
+                <span className="text-2xl font-bold text-green-500">1</span>
+              </div>
+              <p className="text-gray-700">取扱い店舗にてお申込み</p>
             </div>
-            <button className="bg-pink-500 hover:bg-pink-600 text-white font-bold py-3 px-8 rounded-lg transition duration-300 shadow-md">
-              今すぐ予約する
-            </button>
+            <div>
+              <div className="bg-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4 shadow-md">
+                <span className="text-2xl font-bold text-green-500">2</span>
+              </div>
+              <p className="text-gray-700">専用の綿棒で頬の粘膜を採取</p>
+            </div>
+            <div>
+              <div className="bg-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4 shadow-md">
+                <span className="text-2xl font-bold text-green-500">3</span>
+              </div>
+              <p className="text-gray-700">返送用封筒に入れて、ポスト投函</p>
+            </div>
+            <div>
+              <div className="bg-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4 shadow-md">
+                <span className="text-2xl font-bold text-green-500">4</span>
+              </div>
+              <p className="text-gray-700">3週間ほどで遺伝子検査の結果レポート提出</p>
+            </div>
           </div>
         </div>
       </div>

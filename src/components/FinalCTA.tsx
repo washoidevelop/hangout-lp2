@@ -3,18 +3,18 @@ import { ArrowRight } from 'lucide-react';
 
 const FinalCTA = () => {
   return (
-    <section className="py-20 bg-gradient-to-r from-pink-500 to-purple-600 text-white">
+    <section className="py-20 bg-gradient-to-r from-green-500 to-blue-600 text-white">
       <div className="container mx-auto px-6">
         <div className="flex flex-col lg:flex-row items-center">
           <div className="lg:w-1/2 mb-10 lg:mb-0">
-            <h2 className="text-4xl font-bold mb-6">今すぐ理想の自分への<br />一歩を踏み出そう</h2>
+            <h2 className="text-4xl font-bold mb-6">あなたの体質に合わせた<br />効率的なダイエットを</h2>
             <p className="text-xl mb-8 opacity-90">
-              あなたの「なりたい」を叶える第一歩は、<br />
-              無料カウンセリングから始まります。<br />
-              今だけの特典もお見逃しなく。
+              遺伝子検査で自分の体質を知り、<br />
+              あなたに最適な食事と運動で<br />
+              理想のカラダを手に入れましょう。
             </p>
-            <button className="bg-white text-pink-600 hover:bg-pink-100 transition-colors duration-300 font-bold py-3 px-8 rounded-full text-lg shadow-lg flex items-center">
-              無料カウンセリングを予約する
+            <button className="bg-white text-green-600 hover:bg-green-100 transition-colors duration-300 font-bold py-3 px-8 rounded-full text-lg shadow-lg flex items-center">
+              遺伝子検査付きコースを申し込む
               <ArrowRight className="ml-2 h-5 w-5" />
             </button>
           </div>

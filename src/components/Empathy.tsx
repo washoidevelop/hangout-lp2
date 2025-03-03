@@ -8,16 +8,17 @@ const Empathy = () => {
           <div className="md:w-1/2 mb-10 md:mb-0">
             <img 
               src="https://images.unsplash.com/photo-1611042553484-d61f84d22784?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
-              alt="女性が鏡を見て笑顔" 
+              alt="悩む女性" 
               className="rounded-lg shadow-xl"
             />
           </div>
           <div className="md:w-1/2 md:pl-12">
-            <h2 className="text-4xl font-bold text-gray-800 mb-6">理想の自分になると、<br />毎日が楽しくなる</h2>
+            <h2 className="text-4xl font-bold text-gray-800 mb-6">体型維持が難しいと<br />感じていませんか？</h2>
             <p className="text-xl text-gray-600 leading-relaxed">
-              もう自分に自信が持てない日々とはさよなら。<br />
-              好きな服を自信を持って着こなし、<br />
-              鏡を見るたびに笑顔になれる自分に変わりませんか？
+              健康維持のために手作りの食事やサプリメントを利用しているけど、効果が不明瞭...<br />
+              周囲と比較して自分の努力の成果を感じられず焦りを感じている...<br />
+              初心者でも簡単に健康維持や体型維持を行えるトレーニングや食事の提案が欲しい...<br />
+              <span className="font-bold text-green-600">そんなあなたに、遺伝子検査付きダイエットコースがおすすめです。</span>
             </p>
           </div>
         </div>

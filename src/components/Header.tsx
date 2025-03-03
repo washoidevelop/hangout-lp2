@@ -14,25 +14,25 @@ const Header = () => {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <div className="flex items-center">
-            <div className="bg-pink-500 p-2 rounded-full mr-2">
+            <div className="bg-green-500 p-2 rounded-full mr-2">
               <Heart className="h-5 w-5 text-white" />
             </div>
-            <span className="text-xl font-bold text-gray-800">Bloom Fitness</span>
+            <span className="text-xl font-bold text-gray-800">遺伝子検査付ダイエットコース</span>
           </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
-            <a href="#" className="text-gray-700 hover:text-pink-500 transition-colors duration-300">ホーム</a>
-            <a href="#" className="text-gray-700 hover:text-pink-500 transition-colors duration-300">特徴</a>
-            <a href="#" className="text-gray-700 hover:text-pink-500 transition-colors duration-300">料金</a>
-            <a href="#" className="text-gray-700 hover:text-pink-500 transition-colors duration-300">実績</a>
-            <a href="#" className="text-gray-700 hover:text-pink-500 transition-colors duration-300">よくある質問</a>
+            <a href="#" className="text-gray-700 hover:text-green-500 transition-colors duration-300">ホーム</a>
+            <a href="#" className="text-gray-700 hover:text-green-500 transition-colors duration-300">遺伝子検査</a>
+            <a href="#" className="text-gray-700 hover:text-green-500 transition-colors duration-300">コース内容</a>
+            <a href="#" className="text-gray-700 hover:text-green-500 transition-colors duration-300">料金</a>
+            <a href="#" className="text-gray-700 hover:text-green-500 transition-colors duration-300">よくある質問</a>
           </nav>
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <button className="bg-pink-500 hover:bg-pink-600 text-white font-medium py-2 px-4 rounded-full transition-colors duration-300">
-              無料カウンセリング
+            <button className="bg-green-500 hover:bg-green-600 text-white font-medium py-2 px-4 rounded-full transition-colors duration-300">
+              お申し込み
             </button>
           </div>
 
@@ -40,7 +40,7 @@ const Header = () => {
           <div className="md:hidden">
             <button 
               onClick={toggleMenu}
-              className="text-gray-700 hover:text-pink-500 focus:outline-none"
+              className="text-gray-700 hover:text-green-500 focus:outline-none"
             >
               {isMenuOpen ? (
                 <X className="h-6 w-6" />
@@ -57,13 +57,13 @@ const Header = () => {
         <div className="md:hidden bg-white border-t">
           <div className="container mx-auto px-6 py-4">
             <nav className="flex flex-col space-y-4">
-              <a href="#" className="text-gray-700 hover:text-pink-500 transition-colors duration-300">ホーム</a>
-              <a href="#" className="text-gray-700 hover:text-pink-500 transition-colors duration-300">特徴</a>
-              <a href="#" className="text-gray-700 hover:text-pink-500 transition-colors duration-300">料金</a>
-              <a href="#" className="text-gray-700 hover:text-pink-500 transition-colors duration-300">実績</a>
-              <a href="#" className="text-gray-700 hover:text-pink-500 transition-colors duration-300">よくある質問</a>
-              <button className="bg-pink-500 hover:bg-pink-600 text-white font-medium py-2 px-4 rounded-full transition-colors duration-300 w-full">
-                無料カウンセリング
+              <a href="#" className="text-gray-700 hover:text-green-500 transition-colors duration-300">ホーム</a>
+              <a href="#" className="text-gray-700 hover:text-green-500 transition-colors duration-300">遺伝子検査</a>
+              <a href="#" className="text-gray-700 hover:text-green-500 transition-colors duration-300">コース内容</a>
+              <a href="#" className="text-gray-700 hover:text-green-500 transition-colors duration-300">料金</a>
+              <a href="#" className="text-gray-700 hover:text-green-500 transition-colors duration-300">よくある質問</a>
+              <button className="bg-green-500 hover:bg-green-600 text-white font-medium py-2 px-4 rounded-full transition-colors duration-300 w-full">
+                お申し込み
               </button>
             </nav>
           </div>
