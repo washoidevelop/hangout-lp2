@@ -1,4 +1,3 @@
-import React from 'react';
 import { Heart, Calendar, Star, CheckCircle, MessageCircle, DollarSign, HelpCircle, ArrowRight } from 'lucide-react';
 import Header from './components/Header';
 import Hero from './components/Hero';
@@ -24,7 +23,6 @@ function App() {
       <Testimonials />
       <Features />
       <Pricing />
-      <Booking />
       <FAQ />
       <FinalCTA />
       <Footer />

@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Trust = () => {
   return (
     <section className="py-20 bg-white">
@@ -19,7 +17,7 @@ const Trust = () => {
               この生まれ持った遺伝子の並び方によって、あなたの一生変わらない体質は決まっています。<br />
               自分の生まれ持った遺伝子を知って、自分に合った環境要因を変化させることで効率的なカラダづくりに繋がります。
             </p>
-            <div className="mt-8 flex flex-col sm:flex-row">
+            {/* <div className="mt-8 flex flex-col sm:flex-row">
               <div className="flex items-center mb-4 sm:mb-0 sm:mr-8">
                 <div className="bg-green-100 p-3 rounded-full mr-4">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -36,7 +34,7 @@ const Trust = () => {
                 </div>
                 <span className="text-gray-700 font-medium">詳細なレポート</span>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

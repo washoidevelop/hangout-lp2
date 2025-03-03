@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Menu, X, Heart } from 'lucide-react';
 
 const Header = () => {
@@ -14,9 +14,6 @@ const Header = () => {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <div className="flex items-center">
-            <div className="bg-green-500 p-2 rounded-full mr-2">
-              <Heart className="h-5 w-5 text-white" />
-            </div>
             <span className="text-xl font-bold text-gray-800">遺伝子検査付ダイエットコース</span>
           </div>
 

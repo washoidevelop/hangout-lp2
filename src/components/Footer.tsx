@@ -1,4 +1,3 @@
-import React from 'react';
 import { MapPin, Phone, Mail, Clock, Instagram, Facebook, Twitter } from 'lucide-react';
 
 const Footer = () => {
@@ -8,7 +7,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-white text-lg font-bold mb-4">遺伝子検査付ダイエットコース</h3>
+            <h3 className="text-white text-lg font-bold mb-4">ハングアウト</h3>
             <p className="mb-4 text-sm">遺伝子検査で現状のカラダを知って、体質に合わせた食事や運動を行うことで理想的で健康的なカラダの実現へ。ボディメイク、ダイエット、スポーツ、健康促進、体質改善、食育に効果的です。</p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-white transition-colors duration-300">
@@ -29,11 +28,11 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 mr-2 mt-1 text-green-400" />
-                <span>〒106-0032 東京都港区六本木1-1-1 ミッドタウンタワー 5F</span>
+                <span>〒221-0834　神奈川県横浜市神奈川区台町 1-10ルグラン台町501</span>
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 mr-2 text-green-400" />
-                <span>03-1234-5678</span>
+                <span>045-624-9634</span>
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 mr-2 text-green-400" />
@@ -63,7 +62,7 @@ const Footer = () => {
           </div>
 
           {/* Newsletter */}
-          <div>
+          {/* <div>
             <h3 className="text-white text-lg font-bold mb-4">メールマガジン登録</h3>
             <p className="mb-4 text-sm">最新の遺伝子検査情報や健康・ダイエットのコツをお届けします。</p>
             <form className="flex flex-col space-y-2">
@@ -76,11 +75,11 @@ const Footer = () => {
                 登録する
               </button>
             </form>
-          </div>
+          </div> */}
         </div>
 
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-sm mb-4 md:mb-0">&copy; 2025 株式会社レイクビー. All rights reserved.</p>
+          <p className="text-sm mb-4 md:mb-0">&copy; 2025 ハングアウト. All rights reserved.</p>
           <div className="flex space-x-6">
             <a href="#" className="text-sm hover:text-green-400 transition-colors duration-300">プライバシーポリシー</a>
             <a href="#" className="text-sm hover:text-green-400 transition-colors duration-300">利用規約</a>

@@ -1,4 +1,3 @@
-import React from 'react';
 import { CheckCircle, Dna, Utensils, Activity } from 'lucide-react';
 
 const Features = () => {
